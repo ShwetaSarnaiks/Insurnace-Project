@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;userRepository&apos; to &apos;com.userRepository&apos;&#x0D;&#x0A;- Original project: &apos;addUser&apos;&#x0D;&#x0A;- Original element: &apos;addUser/src/main/java/userRepository&apos;&#x0D;&#x0A;- Renamed element: &apos;addUser/src/main/java/com.userRepository&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;userRepository&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;userRepository" name="com.userRepository" qualified="false" references="true" stamp="1716874073512" textual="false" version="1.0"/>
+</session>

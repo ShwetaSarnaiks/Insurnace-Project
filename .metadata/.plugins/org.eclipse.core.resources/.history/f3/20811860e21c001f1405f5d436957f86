@@ -1,0 +1,45 @@
+package com.example.policicesModel;
+
+public class Policices {
+	private int policiesNumber;
+	private String policiesName;
+	private String planeType;
+	private float claimsSettled;
+    private String claimBenefits;
+	public int getPoliciesNumber() {
+		return policiesNumber;
+	}
+	public void setPoliciesNumber(int policiesNumber) {
+		this.policiesNumber = policiesNumber;
+	}
+	public String getPoliciesName() {
+		return policiesName;
+	}
+	public void setPoliciesName(String policiesName) {
+		this.policiesName = policiesName;
+	}
+	public String getPlaneType() {
+		return planeType;
+	}
+	public void setPlaneType(String planeType) {
+		this.planeType = planeType;
+	}
+	public float getClaimsSettled() {
+		return claimsSettled;
+	}
+	public void setClaimsSettled(float claimsSettled) {
+		this.claimsSettled = claimsSettled;
+	}
+	public String getClaimBenefits() {
+		return claimBenefits;
+	}
+	public void setClaimBenefits(String claimBenefits) {
+		this.claimBenefits = claimBenefits;
+	}
+	@Override
+	public String toString() {
+		return "Policices [policiesNumber=" + policiesNumber + ", policiesName=" + policiesName + ", planeType="
+				+ planeType + ", claimsSettled=" + claimsSettled + ", claimBenefits=" + claimBenefits + "]";
+	}
+    
+}
